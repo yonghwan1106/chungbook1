@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="400" fill="#f8f9fa" />
+  
+  <!-- 제목 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 발급 프로세스</text>
+  
+  <!-- 신생아 자동 발급 프로세스 -->
+  <g transform="translate(50, 80)">
+    <text x="0" y="20" font-family="Arial" font-size="18" fill="#1a5f7a" font-weight="bold">신생아 자동 발급 프로세스</text>
+    
+    <!-- 프로세스 단계 -->
+    <g transform="translate(0, 40)">
+      <!-- 단계 1: 출생신고 -->
+      <g transform="translate(0, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">1</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">출생신고 연계</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M50,25 L100,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 2: 기본정보 등록 -->
+      <g transform="translate(100, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">2</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">기본정보 등록</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M150,25 L200,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 3: 맞춤형 정보 수집 -->
+      <g transform="translate(200, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">3</text>
+        <text x="-20" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">맞춤형 정보 수집</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M250,25 L300,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 4: 카드 제작 및 배송 -->
+      <g transform="translate(300, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">4</text>
+        <text x="-20" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">카드 제작 및 배송</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M350,25 L400,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 5: 모바일 앱 설치 안내 -->
+      <g transform="translate(400, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">5</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">모바일 앱 설치 </text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M450,25 L500,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 6: 카드 활성화 -->
+      <g transform="translate(500, 0)">
+        <circle cx="25" cy="25" r="25" fill="#1a5f7a" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">6</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">카드 활성화</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- 기존 아동 대상 전환 프로세스 -->
+  <g transform="translate(50, 200)">
+    <text x="0" y="20" font-family="Arial" font-size="18" fill="#1a5f7a" font-weight="bold">기존 아동 대상 전환 프로세스</text>
+    
+    <!-- 프로세스 단계 -->
+    <g transform="translate(0, 40)">
+      <!-- 단계 1: 대상자 분류 -->
+      <g transform="translate(0, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">1</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">대상자 분류</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M50,25 L100,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 2: 안내문 발송 -->
+      <g transform="translate(100, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">2</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">안내문 발송</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M150,25 L200,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 3: 신청 접수 -->
+      <g transform="translate(200, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">3</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">신청 접수</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M250,25 L300,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 4: 기존 카드 정보 연계 -->
+      <g transform="translate(300, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">4</text>
+        <text x="-30" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">기존 카드 정보 연계</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M350,25 L400,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 5: 카드 발급 및 배송 -->
+      <g transform="translate(400, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">5</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">카드 발급 및 배송</text>
+      </g>
+      
+      <!-- 화살표 -->
+      <path d="M450,25 L500,25" stroke="#666666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+      
+      <!-- 단계 6: 전환 완료 지원 -->
+      <g transform="translate(500, 0)">
+        <circle cx="25" cy="25" r="25" fill="#5bc0de" />
+        <text x="25" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">6</text>
+        <text x="-10" y="65" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">전환 완료 지원</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- 설명 박스 -->
+  <g transform="translate(50, 320)">
+    <rect width="700" height="70" rx="5" ry="5" fill="#e8f4f8" stroke="#1a5f7a" stroke-width="1" />
+    <text x="20" y="25" font-family="Arial" font-size="16" fill="#1a5f7a" font-weight="bold">주요 특징:</text>
+    <text x="20" y="50" font-family="Arial" font-size="14" fill="#333333">• 신생아는 출생신고 시 자동 카드 발급 프로세스 진행</text>
+    <text x="350" y="50" font-family="Arial" font-size="14" fill="#333333">• 기존 아동은 단계적으로 하나로 카드 전환</text>
+  </g>
+  
+  <!-- 마커 정의 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666666" />
+    </marker>
+  </defs>
+</svg>

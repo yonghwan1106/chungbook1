@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- 제목 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 도입 후 예상되는 인구 유입 및 정착률 변화</text>
+  
+  <!-- 그래프 영역 정의 -->
+  <defs>
+    <linearGradient id="areaGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a5f7a" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1a5f7a" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="areaGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9800" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ff9800" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 범례 -->
+  <!--g transform="translate(600, 80)">
+    <rect width="20" height="10" fill="#1a5f7a" />
+    <text x="30" y="10" font-family="Arial" font-size="12" fill="#333333">아동 인구 유입 효과</text>
+    
+    <rect y="30" width="20" height="10" fill="#ff9800" />
+    <text x="30" y="40" font-family="Arial" font-size="12" fill="#333333">정착률 향상 효과</text>
+  </g-->
+  
+  <!-- 좌측 그래프: 아동 인구 유입 효과 -->
+  <g transform="translate(80, 100)">
+    <text x="150" y="0" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333" font-weight="bold">아동 인구 유입 예상 효과</text>
+    
+    <!-- Y축 -->
+    <line x1="0" y1="250" x2="0" y2="0" stroke="#cccccc" stroke-width="2" />
+    
+    <!-- X축 -->
+    <line x1="0" y1="250" x2="300" y2="250" stroke="#cccccc" stroke-width="2" />
+    
+    <!-- Y축 눈금 및 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#666666" text-anchor="end">
+      <line x1="-5" y1="250" x2="0" y2="250" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="255">0%</text>
+      
+      <line x1="-5" y1="200" x2="0" y2="200" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="205">1%</text>
+      
+      <line x1="-5" y1="150" x2="0" y2="150" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="155">2%</text>
+      
+      <line x1="-5" y1="100" x2="0" y2="100" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="105">3%</text>
+      
+      <line x1="-5" y1="50" x2="0" y2="50" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="55">4%</text>
+      
+      <line x1="-5" y1="0" x2="0" y2="0" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="5">5%</text>
+    </g>
+    
+    <!-- X축 눈금 및 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#666666" text-anchor="middle">
+      <line x1="0" y1="250" x2="0" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="0" y="270">현재</text>
+      
+      <line x1="100" y1="250" x2="100" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="100" y="270">1년 후</text>
+      
+      <line x1="200" y1="250" x2="200" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="200" y="270">3년 후</text>
+      
+      <line x1="300" y1="250" x2="300" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="300" y="270">5년 후</text>
+    </g>
+    
+    <!-- 그래프 선 -->
+    <polyline 
+      points="0,240 100,190 200,140 300,90" 
+      fill="none" 
+      stroke="#1a5f7a" 
+      stroke-width="3" 
+    />
+    
+    <!-- 영역 그래프 -->
+    <path 
+      d="M0,240 L100,190 L200,140 L300,90 L300,250 L0,250 Z" 
+      fill="url(#areaGradient1)" 
+    />
+    
+    <!-- 데이터 포인트 -->
+    <circle cx="0" cy="240" r="5" fill="#1a5f7a" />
+    <circle cx="100" cy="190" r="5" fill="#1a5f7a" />
+    <circle cx="200" cy="140" r="5" fill="#1a5f7a" />
+    <circle cx="300" cy="90" r="5" fill="#1a5f7a" />
+    
+    <!-- 데이터 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#1a5f7a" text-anchor="middle">
+      <text x="0" y="230">+0.2%</text>
+      <text x="100" y="180">+1.2%</text>
+      <text x="200" y="130">+2.2%</text>
+      <text x="300" y="80">+3.2%</text>
+    </g>
+  </g>
+  
+  <!-- 우측 그래프: 정착률 향상 효과 -->
+  <g transform="translate(470, 100)">
+    <text x="150" y="0" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333" font-weight="bold">정착률 향상 예상 효과</text>
+    
+    <!-- Y축 -->
+    <line x1="0" y1="250" x2="0" y2="0" stroke="#cccccc" stroke-width="2" />
+    
+    <!-- X축 -->
+    <line x1="0" y1="250" x2="300" y2="250" stroke="#cccccc" stroke-width="2" />
+    
+    <!-- Y축 눈금 및 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#666666" text-anchor="end">
+      <line x1="-5" y1="250" x2="0" y2="250" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="255">60%</text>
+      
+      <line x1="-5" y1="187.5" x2="0" y2="187.5" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="192.5">65%</text>
+      
+      <line x1="-5" y1="125" x2="0" y2="125" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="130">70%</text>
+      
+      <line x1="-5" y1="62.5" x2="0" y2="62.5" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="67.5">75%</text>
+      
+      <line x1="-5" y1="0" x2="0" y2="0" stroke="#cccccc" stroke-width="2" />
+      <text x="-10" y="5">80%</text>
+    </g>
+    
+    <!-- X축 눈금 및 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#666666" text-anchor="middle">
+      <line x1="0" y1="250" x2="0" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="0" y="270">현재</text>
+      
+      <line x1="100" y1="250" x2="100" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="100" y="270">1년 후</text>
+      
+      <line x1="200" y1="250" x2="200" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="200" y="270">3년 후</text>
+      
+      <line x1="300" y1="250" x2="300" y2="255" stroke="#cccccc" stroke-width="2" />
+      <text x="300" y="270">5년 후</text>
+    </g>
+    
+    <!-- 그래프 선 -->
+    <polyline 
+      points="0,225 100,175 200,100 300,50" 
+      fill="none" 
+      stroke="#ff9800" 
+      stroke-width="3" 
+    />
+    
+    <!-- 영역 그래프 -->
+    <path 
+      d="M0,225 L100,175 L200,100 L300,50 L300,250 L0,250 Z" 
+      fill="url(#areaGradient2)" 
+    />
+    
+    <!-- 데이터 포인트 -->
+    <circle cx="0" cy="225" r="5" fill="#ff9800" />
+    <circle cx="100" cy="175" r="5" fill="#ff9800" />
+    <circle cx="200" cy="100" r="5" fill="#ff9800" />
+    <circle cx="300" cy="50" r="5" fill="#ff9800" />
+    
+    <!-- 데이터 레이블 -->
+    <g font-family="Arial" font-size="12" fill="#ff9800" text-anchor="middle">
+      <text x="0" y="215">61%</text>
+      <text x="100" y="165">65%</text>
+      <text x="200" y="90">71%</text>
+      <text x="300" y="40">76%</text>
+    </g>
+  </g>
+  
+  <!-- 하단 설명 -->
+  <g transform="translate(100, 420)">
+    <rect width="600" height="60" rx="5" ry="5" fill="#e8f4f8" />
+    <text x="300" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1a5f7a" font-weight="bold">
+      충북 하나로 카드 도입으로 5년 내 아동 인구 3.2% 증가 및 정착률 15% 향상 예상
+    </text>
+    <text x="300" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#1a5f7a">
+      통합 서비스 제공으로 양육 환경 개선 및 지역 애착도 증가 효과
+    </text>
+  </g>
+</svg>

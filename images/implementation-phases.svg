@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="400" fill="#f8f9fa" />
+  
+  <!-- 제목 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 단계적 구축 전략</text>
+  
+  <!-- 단계별 상자 -->
+  <!-- 1단계 -->
+  <g transform="translate(50, 80)">
+    <rect width="220" height="220" rx="10" ry="10" fill="#1a5f7a" opacity="0.8" />
+    <text x="110" y="40" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff" font-weight="bold">1단계</text>
+    <text x="110" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">시스템 구축 및 시범 운영</text>
+    <text x="110" y="85" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">(6개월)</text>
+    
+    <line x1="40" y1="100" x2="180" y2="100" stroke="#ffffff" stroke-width="1" />
+    
+    <g transform="translate(20, 120)" font-family="Arial" font-size="12" fill="#ffffff">
+      <text x="0" y="0">• 시스템 개발</text>
+      <text x="0" y="25">• 시범지역 선정(2개 지역)</text>
+      <text x="0" y="50">• 200가구 시범 참여</text>
+      <text x="0" y="75">• 문제점 도출 및 개선</text>
+    </g>
+  </g>
+  
+  <!-- 단계 화살표 1->2 -->
+  <g transform="translate(270, 180)">
+    <path d="M0,0 L40,0" stroke="#333333" stroke-width="2" />
+    <path d="M40,0 L30,-5 L30,5 Z" fill="#333333" />
+  </g>
+  
+  <!-- 2단계 -->
+  <g transform="translate(310, 80)">
+    <rect width="220" height="220" rx="10" ry="10" fill="#5bc0de" opacity="0.8" />
+    <text x="110" y="40" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff" font-weight="bold">2단계</text>
+    <text x="110" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">확대 적용</text>
+    <text x="110" y="85" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">(1년)</text>
+    
+    <line x1="40" y1="100" x2="180" y2="100" stroke="#ffffff" stroke-width="1" />
+    
+    <g transform="translate(20, 120)" font-family="Arial" font-size="12" fill="#ffffff">
+      <text x="0" y="0">• 신생아 우선 적용</text>
+      <text x="0" y="25">• 0-5세 아동 단계적 전환</text>
+      <text x="0" y="50">• 충북 전체 11개 시·군 확대</text>
+      <text x="0" y="75">• 서비스 영역 확대</text>
+    </g>
+  </g>
+  
+  <!-- 단계 화살표 2->3 -->
+  <g transform="translate(530, 180)">
+    <path d="M0,0 L40,0" stroke="#333333" stroke-width="2" />
+    <path d="M40,0 L30,-5 L30,5 Z" fill="#333333" />
+  </g>
+  
+  <!-- 3단계 -->
+  <g transform="translate(570, 80)">
+    <rect width="220" height="220" rx="10" ry="10" fill="#4caf50" opacity="0.8" />
+    <text x="110" y="40" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff" font-weight="bold">3단계</text>
+    <text x="110" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">전면 시행</text>
+    <text x="110" y="85" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">(6개월)</text>
+    
+    <line x1="40" y1="100" x2="180" y2="100" stroke="#ffffff" stroke-width="1" />
+    
+    <g transform="translate(20, 120)" font-family="Arial" font-size="12" fill="#ffffff">
+      <text x="0" y="0">• 만 18세 이하 전체 확대</text>
+      <text x="0" y="25">• 모든 아동 서비스 통합</text>
+      <text x="0" y="50">• 시스템 고도화</text>
+      <text x="0" y="75">• 운영 안정화</text>
+    </g>
+  </g>
+  
+  <!-- 시간 라인 -->
+  <g transform="translate(50, 330)">
+    <line x1="0" y1="0" x2="740" y2="0" stroke="#333333" stroke-width="2" />
+    
+    <!-- 시작점 -->
+    <circle cx="0" cy="0" r="5" fill="#333333" />
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">시작</text>
+    
+    <!-- 1단계 종료 -->
+    <circle cx="180" cy="0" r="5" fill="#333333" />
+    <text x="180" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">6개월</text>
+    
+    <!-- 2단계 종료 -->
+    <circle cx="480" cy="0" r="5" fill="#333333" />
+    <text x="480" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">1년 6개월</text>
+    
+    <!-- 3단계 종료 -->
+    <circle cx="660" cy="0" r="5" fill="#333333" />
+    <text x="660" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">2년</text>
+    
+    <!-- 완료 -->
+    <circle cx="740" cy="0" r="5" fill="#333333" />
+    <text x="740" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">완료</text>
+  </g>
+</svg>

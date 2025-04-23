@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 제목 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 시스템 아키텍처</text>
+  
+  <!-- 중앙 통합 플랫폼 -->
+  <g transform="translate(325, 150)">
+    <rect width="150" height="120" rx="10" ry="10" fill="#1a5f7a" />
+    <text x="75" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">중앙 통합 플랫폼</text>
+    <line x1="20" y1="40" x2="130" y2="40" stroke="#ffffff" stroke-width="1" />
+    <text x="75" y="60" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">사용자 DB 및 인증</text>
+    <text x="75" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">결제 및 정산 처리</text>
+    <text x="75" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">데이터 분석 및 관리</text>
+  </g>
+  
+  <!-- 사용자 인터페이스 -->
+  <g transform="translate(100, 300)">
+    <rect width="150" height="120" rx="10" ry="10" fill="#5bc0de" />
+    <text x="75" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">사용자 인터페이스</text>
+    <line x1="20" y1="40" x2="130" y2="40" stroke="#ffffff" stroke-width="1" />
+    <text x="75" y="60" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">물리적 카드</text>
+    <text x="75" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">모바일 앱</text>
+    <text x="75" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">웹 포털</text>
+  </g>
+  
+  <!-- 서비스 제공자 인터페이스 -->
+  <g transform="translate(550, 300)">
+    <rect width="150" height="120" rx="10" ry="10" fill="#5bc0de" />
+    <text x="75" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">서비스 제공자</text>
+    <text x="75" y="50" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">인터페이스</text>
+    <line x1="20" y1="60" x2="130" y2="60" stroke="#ffffff" stroke-width="1" />
+    <text x="75" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">관리자 웹 포털</text>
+    <text x="75" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">POS 연동 시스템</text>
+  </g>
+  
+  <!-- 연결선 -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <!-- 중앙 통합 플랫폼과 사용자 인터페이스 연결 -->
+    <path d="M325,210 L175,300" stroke-dasharray="5,3" />
+    <!-- 중앙 통합 플랫폼과 서비스 제공자 인터페이스 연결 -->
+    <path d="M475,210 L625,300" stroke-dasharray="5,3" />
+  </g>
+  
+  <!-- 외부 연계 시스템 -->
+  <g transform="translate(250, 490)">
+    <rect width="300" height="80" rx="10" ry="10" fill="#ff9800" opacity="0.8" />
+    <text x="150" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">외부 연계 시스템</text>
+    <line x1="50" y1="40" x2="250" y2="40" stroke="#ffffff" stroke-width="1" />
+    <text x="75" y="60" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">행정/복지 시스템</text>
+    <text x="225" y="60" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">금융/결제 시스템</text>
+  </g>
+  
+  <!-- 연결선 -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <!-- 중앙 통합 플랫폼과 외부 연계 시스템 연결 -->
+    <path d="M400,270 L400,490" stroke-dasharray="5,3" />
+    <circle cx="400" cy="270" r="5" fill="#333333" />
+    <circle cx="400" cy="470" r="5" fill="#333333" />
+  </g>
+  
+  <!-- 사용자/운영기관 -->
+  <g transform="translate(50, 100)">
+    <!-- 아동 가구 -->
+    <g transform="translate(0, 0)">
+      <circle cx="40" cy="40" r="30" fill="#f8f9fa" stroke="#333333" stroke-width="2" />
+      <g transform="translate(25, 25) scale(0.6)">
+        <circle cx="15" cy="10" r="10" fill="#333333" />
+        <path d="M0,30 Q15,20 30,30 Q15,40 0,30" fill="#333333" />
+        <path d="M0,30 L0,60 M30,30 L30,60 M0,45 L30,45" stroke="#333333" stroke-width="2" fill="none" />
+      </g>
+      <text x="40" y="85" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">아동 가구</text>
+    </g>
+    
+    <!-- 운영기관 -->
+    <g transform="translate(640, 0)">
+      <rect x="0" y="10" width="60" height="60" fill="#f8f9fa" stroke="#333333" stroke-width="2" />
+      <path d="M10,20 L50,20 M10,30 L50,30 M10,40 L50,40 M10,50 L50,50 M10,60 L50,60" stroke="#333333" stroke-width="2" />
+      <text x="30" y="85" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">운영기관</text>
+    </g>
+  </g>
+  
+  <!-- 연결선 -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <!-- 사용자와 사용자 인터페이스 연결 -->
+    <path d="M90,180 L175,300" />
+    <!-- 운영기관과 서비스 제공자 인터페이스 연결 -->
+    <path d="M720,180 L625,300" />
+  </g>
+  
+  <!-- 보안 및 개인정보 보호 -->
+  <g transform="translate(50, 430)">
+    <rect width="700" height="50" rx="5" ry="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="1" />
+    <text x="350" y="20" font-family="Arial" font-size="16" text-anchor="middle" fill="#0c5460" font-weight="bold">보안 및 개인정보 보호 체계</text>
+    <text x="350" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#0c5460">블록체인 기반 데이터 보호, 생체인증, 엔드투엔드 암호화, 접근 권한 세분화</text>
+  </g>
+</svg>

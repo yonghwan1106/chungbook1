@@ -1,0 +1,15 @@
+충북 하나로 카드 웹사이트 이미지 목록:
+
+1. hero-bg.jpg - 메인 페이지 히어로 섹션 배경 이미지
+2. card-concept.jpg - 카드 컨셉 디자인
+3. population-chart.jpg - 충북 인구 감소 추세 그래프
+4. card-system.jpg - 현행 카드 시스템 구조도
+5. system-architecture.jpg - 충북 하나로 카드 시스템 아키텍처
+6. card-issuance.jpg - 충북 하나로 카드 발급 프로세스
+7. app-mockup.jpg - 충북 하나로 카드 모바일 앱 목업
+8. quality-of-life-chart.jpg - 아동 가구 삶의 질 향상 지표
+9. efficiency-chart.jpg - 행정 효율성 개선 지표
+10. population-effect-chart.jpg - 인구 유입 효과 예상 지표
+11. implementation-phases.jpg - 충북 하나로 카드 단계적 구축 전략
+12. organization-chart.jpg - 충북 하나로 카드 추진 조직도
+13. legal-timeline.jpg - 충북 하나로 카드 법제도 기반 추진 일정

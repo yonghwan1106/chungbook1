@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="350" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- 카드 배경 -->
+  <defs>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a5f7a" />
+      <stop offset="100%" stop-color="#5bc0de" />
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="5" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- 카드 -->
+  <g transform="translate(50, 50)">
+    <rect width="380" height="240" rx="15" ry="15" fill="url(#cardGradient)" filter="url(#dropShadow)" />
+    
+    <!-- 카드 장식 요소 -->
+    <path d="M0,60 Q190,20 380,100" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.2" />
+    <path d="M0,120 Q190,180 380,140" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.2" />
+    
+    <!-- 카드 로고 -->
+    <g transform="translate(30, 40)">
+      <circle cx="15" cy="15" r="15" fill="#ffffff" />
+      <text x="45" y="20" font-family="Arial" font-size="20" fill="#ffffff" font-weight="bold">충북 하나로 카드</text>
+    </g>
+    
+    <!-- 칩 -->
+    <rect x="30" y="90" width="40" height="30" rx="5" ry="5" fill="#FFD700" opacity="0.7" />
+    
+    <!-- NFC 아이콘 -->
+    <g transform="translate(90, 95)">
+      <path d="M0,10 Q10,0 20,10 Q30,20 20,30 Q10,40 0,30 Q-10,20 0,10" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M5,15 Q10,10 15,15 Q20,20 15,25 Q10,30 5,25 Q0,20 5,15" fill="none" stroke="#ffffff" stroke-width="2" />
+    </g>
+    
+    <!-- 카드 번호 -->
+    <text x="30" y="160" font-family="Arial" font-size="16" fill="#ffffff" letter-spacing="2">5678 •••• •••• 1234</text>
+    
+    <!-- 카드 소지자 & 유효기간 -->
+    <text x="30" y="200" font-family="Arial" font-size="12" fill="#ffffff">김충북</text>
+    <text x="280" y="200" font-family="Arial" font-size="12" fill="#ffffff">07/30</text>
+  </g>
+  
+  <!-- 모바일 앱 미리보기 -->
+  <g transform="translate(350, 70)">
+    <rect width="180" height="320" rx="20" ry="20" fill="#f8f9fa" filter="url(#dropShadow)" />
+    <rect x="10" y="10" width="160" height="300" rx="10" ry="10" fill="#ffffff" />
+    
+    <!-- 앱 상단바 -->
+    <rect x="10" y="10" width="160" height="40" rx="10" ry="10" fill="#1a5f7a" />
+    <text x="25" y="35" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold">충북 하나로 카드</text>
+    
+    <!-- 카드 이미지 (미니) -->
+    <rect x="30" y="70" width="120" height="70" rx="10" ry="10" fill="url(#cardGradient)" />
+    
+    <!-- 서비스 아이콘들 -->
+    <g transform="translate(30, 160)">
+      <rect width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+      <rect x="50" width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+      <rect x="100" width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+    </g>
+    
+    <g transform="translate(30, 210)">
+      <rect width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+      <rect x="50" width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+      <rect x="100" width="30" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+    </g>
+    
+    <g transform="translate(30, 260)">
+      <rect width="120" height="30" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+    </g>
+  </g>
+</svg>
