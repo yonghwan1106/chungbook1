@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>충북 하나로 카드 - 머물고 싶은 충북, 살고 싶은 충북</title>
+  <meta name="description" content="충북 하나로 카드는 충청북도 내 모든 아동 관련 공공 서비스를 하나의 카드로 통합 이용할 수 있는 혁신적인 시스템입니다.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo"><a href="index.html">충북 하나로 카드</a></div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#overview" class="nav-link">소개</a></li>
+          <li class="nav-item"><a href="#problems" class="nav-link">현황 및 문제점</a></li>
+          <li class="nav-item"><a href="#solution" class="nav-link">제안 내용</a></li>
+          <li class="nav-item"><a href="#effects" class="nav-link">기대효과</a></li>
+          <li class="nav-item"><a href="#implementation" class="nav-link">구현 계획</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 히어로 섹션 -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">충북 하나로 카드</h1>
+        <h2 class="hero-subtitle">머물고 싶은 충북, 살고 싶은 충북</h2>
+        <p class="hero-description">아동에게 필요한 모든 공공 서비스, 하나의 카드로 통합 이용하세요</p>
+        <a href="#overview" class="btn">자세히 알아보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 개요 섹션 -->
+  <section id="overview" class="section">
+    <div class="container">
+      <h2 class="section-title">충북 하나로 카드란?</h2>
+      <p class="section-subtitle">출생 등록부터 성인기 진입 전까지 충청북도 내 모든 아동 관련 공공 서비스를 하나의 카드로 통합 이용할 수 있는 시스템입니다.</p>
+      
+      <div class="grid">
+        <div class="card animate-on-scroll">
+          <i class="fas fa-credit-card icon"></i>
+          <h3 class="card-title">통합 결제 기능</h3>
+          <p>보육, 교육, 의료, 문화, 교통 등 모든 서비스를 하나의 카드로 이용할 수 있습니다.</p>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-mobile-alt icon"></i>
+          <h3 class="card-title">모바일 앱 연동</h3>
+          <p>모바일 앱을 통해 이용 가능한 서비스 정보와 이용 내역을 실시간으로 확인할 수 있습니다.</p>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-child icon"></i>
+          <h3 class="card-title">맞춤형 서비스</h3>
+          <p>아동의 성장 단계와 가구 특성에 맞는 서비스를 자동으로 추천해드립니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 현황 및 문제점 섹션 -->
+  <section id="problems" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">현황 및 문제점</h2>
+      <p class="section-subtitle">현행 아동 지원 서비스 체계의 분절화로 인한 다양한 문제점을 해결하고자 합니다.</p>
+      
+      <div class="problems-container">
+        <div class="problem-item animate-on-scroll">
+          <i class="fas fa-puzzle-piece icon" style="color: #e74c3c;"></i>
+          <h3>지원 체계의 분절화</h3>
+          <p>소관 부처 및 제도별로 분산된 서비스 체계로 인해 가구당 평균 3-4개의 카드를 발급받아 관리해야 합니다.</p>
+        </div>
+        
+        <div class="problem-item animate-on-scroll">
+          <i class="fas fa-ban icon" style="color: #f39c12;"></i>
+          <h3>낮은 접근성과 복잡한 신청 절차</h3>
+          <p>서비스별 상이한 신청 서류와 절차로, 이용 가능한 서비스에 대한 종합적 정보 제공 채널이 부족합니다.</p>
+        </div>
+        
+        <div class="problem-item animate-on-scroll">
+          <i class="fas fa-exclamation-triangle icon" style="color: #9b59b6;"></i>
+          <h3>서비스 이용 관리의 어려움</h3>
+          <p>각 카드별, 서비스별 이용 내역을 개별적으로 확인해야 하며, 서비스별 지원금 잔액을 각각 확인해야 합니다.</p>
+        </div>
+        
+        <div class="problem-item animate-on-scroll">
+          <i class="fas fa-balance-scale icon" style="color: #3498db;"></i>
+          <h3>지역별 서비스 불균형</h3>
+          <p>도시 지역과 농촌 지역 간 서비스 제공 기관 및 이용 가능 시설의 격차가 큽니다.</p>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="pages/problems.html" class="btn">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 제안 내용 섹션 -->
+  <section id="solution" class="section">
+    <div class="container">
+      <h2 class="section-title">충북 하나로 카드 제안</h2>
+      <p class="section-subtitle">아동의 모든 서비스를 하나로 통합하는 원스톱 솔루션</p>
+      
+      <div class="grid">
+        <div class="card animate-on-scroll">
+          <i class="fas fa-cogs icon" style="color: #2ecc71;"></i>
+          <h3 class="card-title">핵심 기능</h3>
+          <ul>
+            <li>보육·교육비, 의료비, 아동수당, 급식·돌봄, 문화·여가, 교통 등 통합 결제</li>
+            <li>맞춤형 서비스 알림 및 통합 이용 내역 관리</li>
+            <li>성장 단계별 가이드 및 지역 맞춤 정보 제공</li>
+          </ul>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-server icon" style="color: #3498db;"></i>
+          <h3 class="card-title">시스템 구성</h3>
+          <ul>
+            <li>중앙 통합 플랫폼: 사용자 데이터베이스, 결제 시스템, 데이터 분석 등</li>
+            <li>사용자 인터페이스: 물리적 카드, 모바일 앱, 웹 포털</li>
+            <li>서비스 제공자 인터페이스: 관리자 웹 포털, POS 연동 시스템</li>
+          </ul>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-shield-alt icon" style="color: #e74c3c;"></i>
+          <h3 class="card-title">보안 및 개인정보 보호</h3>
+          <ul>
+            <li>블록체인 기반 데이터 보호</li>
+            <li>생체인증 시스템</li>
+            <li>데이터 암호화 및 접근 권한 세분화</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="pages/proposal.html" class="btn">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 기대효과 섹션 -->
+  <section id="effects" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">기대효과</h2>
+      <p class="section-subtitle">충북 하나로 카드를 통해 얻을 수 있는 다양한 혜택</p>
+      
+      <div class="grid">
+        <div class="card animate-on-scroll">
+          <i class="fas fa-heart icon"></i>
+          <h3 class="card-title">아동 가구의 삶의 질 향상</h3>
+          <p>서비스 접근성 및 이용 편의성 증대, 경제적 부담 경감, 심리적 안정감 및 만족도 향상</p>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-chart-line icon"></i>
+          <h3 class="card-title">행정 효율성 및 정책 효과 제고</h3>
+          <p>행정 업무 효율화 및 비용 절감, 데이터 기반 정책 수립, 서비스 품질 향상</p>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-users icon"></i>
+          <h3 class="card-title">인구 유입 및 정착 활성화</h3>
+          <p>출산 및 양육 친화적 환경 조성, 인구 유입 촉진, 지역 간 균형 발전</p>
+        </div>
+        
+        <div class="card animate-on-scroll">
+          <i class="fas fa-building icon"></i>
+          <h3 class="card-title">사회경제적 파급효과</h3>
+          <p>지역 경제 활성화, 사회적 자본 형성, 미래 인적 자원 개발</p>
+        </div>
+      </div>
+      
+      <div class="counter-section animate-on-scroll">
+        <div class="counter-container">
+          <div class="counter-item">
+            <span class="counter" data-target="40">0</span>%
+            <p>행정 업무량 감소</p>
+          </div>
+          
+          <div class="counter-item">
+            <span class="counter" data-target="30">0</span>%
+            <p>시스템 운영 비용 절감</p>
+          </div>
+          
+          <div class="counter-item">
+            <span class="counter" data-target="20">0</span>%
+            <p>지원 혜택 수령액 증가</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="pages/effects.html" class="btn">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 구현 계획 섹션 -->
+  <section id="implementation" class="section">
+    <div class="container">
+      <h2 class="section-title">구현 계획</h2>
+      <p class="section-subtitle">단계적이고 체계적인 구축 및 확산 전략</p>
+      
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">1</div>
+          <div class="timeline-content">
+            <h3>시스템 구축 및 시범 운영 (6개월)</h3>
+            <p>시스템 개발, 시범지역 선정(청주시 1개 동, 옥천군 1개 면), 200가구 대상 시범 운영</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">2</div>
+          <div class="timeline-content">
+            <h3>확대 적용 (1년)</h3>
+            <p>신생아 우선 적용, 0-5세 아동 단계적 전환, 충청북도 전체 11개 시·군으로 확대</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">3</div>
+          <div class="timeline-content">
+            <h3>전면 시행 (6개월)</h3>
+            <p>만 18세 이하 모든 아동으로 대상 확대, 모든 아동 관련 서비스 통합, 시스템 고도화</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="budget-section animate-on-scroll">
+        <h3>소요 예산</h3>
+        <div class="budget-container">
+          <div class="budget-item">
+            <h4>초기 구축 비용</h4>
+            <p>12억원</p>
+          </div>
+          
+          <div class="budget-item">
+            <h4>연간 운영 비용</h4>
+            <p>5억원</p>
+          </div>
+          
+          <div class="budget-item">
+            <h4>재원 조달</h4>
+            <p>도비 60%, 시·군비 30%, 중앙정부 및 민간 10%</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="pages/implementation.html" class="btn">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ 섹션 -->
+  <section id="faq" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">자주 묻는 질문</h2>
+      
+      <div class="faq-container">
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>기존 카드와의 관계는 어떻게 되나요?</h3>
+            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>기존 아이행복카드, 국민행복카드 등의 기능을 모두 포함하며, 단계적으로 기존 카드를 대체할 예정입니다. 전환 기간 동안에는 두 카드 모두 사용 가능합니다.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>카드 발급 비용은 얼마인가요?</h3>
+            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>충북 하나로 카드는 충청북도 내 모든 아동에게 무료로 발급됩니다. 재발급 시에도 최초 1회는 무료이며, 이후 분실에 따른 재발급은 소정의 수수료가 발생할 수 있습니다.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>개인정보 보호는 어떻게 이루어지나요?</h3>
+            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>블록체인 기반 데이터 보호, 엔드투엔드 암호화, 생체인증 등 최신 기술을 활용하여 개인정보를 안전하게 보호합니다. 또한 정기적인 보안 점검과 감사를 통해 시스템 안전성을 지속적으로 관리합니다.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>충북 외 지역에서도 사용 가능한가요?</h3>
+            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>기본적으로 충청북도 내에서 사용 가능하지만, 의료기관과 같은 일부 서비스는 전국 가맹점에서 이용 가능하도록 단계적으로 확대할 계획입니다.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>카드를 분실했을 때는 어떻게 해야 하나요?</h3>
+            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>모바일 앱이나 웹사이트에서 즉시 카드 사용 정지가 가능하며, 주민센터 방문 또는 전화 신청을 통해 재발급 받을 수 있습니다. 임시 가상 카드를 모바일 앱에서 즉시 발급받아 실물 카드 도착 전까지 사용할 수 있습니다.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="pages/faq.html" class="btn">더 많은 질문 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 문의 섹션 -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">문의하기</h2>
+      <p class="section-subtitle">충북 하나로 카드에 대해 더 알고 싶으시다면 언제든지 문의해주세요.</p>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone icon"></i>
+            <h3>전화 문의</h3>
+            <p>043-220-2325</p>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope icon"></i>
+            <h3>이메일 문의</h3>
+            <p>hanarocard@chungbuk.go.kr</p>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt icon"></i>
+            <h3>방문 문의</h3>
+            <p>충청북도 청주시 상당구 상당로 82 (문화동)</p>
+            <p>충청북도청 법무혁신담당관</p>
+          </div>
+        </div>
+        
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">제목</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">내용</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn">보내기</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">충북 하나로 카드</div>
+        <ul class="footer-links">
+          <li class="footer-link"><a href="#overview">소개</a></li>
+          <li class="footer-link"><a href="#problems">현황 및 문제점</a></li>
+          <li class="footer-link"><a href="#solution">제안 내용</a></li>
+          <li class="footer-link"><a href="#effects">기대효과</a></li>
+          <li class="footer-link"><a href="#implementation">구현 계획</a></li>
+          <li class="footer-link"><a href="#faq">FAQ</a></li>
+        </ul>
+        <p class="footer-text">&copy; 2025 충청북도. All Rights Reserved.</p>
+        <p class="footer-text">본 웹사이트는 2025년 충청북도 제안 공모전 출품작입니다.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
