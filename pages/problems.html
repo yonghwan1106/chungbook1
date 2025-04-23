@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>현황 및 문제점 - 충북 하나로 카드</title>
+  <meta name="description" content="현행 아동 지원 서비스 체계의 분절화로 인한 다양한 문제점과 충북 하나로 카드를 통한 해결 방안을 알아보세요.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo"><a href="../index.html">충북 하나로 카드</a></div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html#overview" class="nav-link">소개</a></li>
+          <li class="nav-item"><a href="../index.html#problems" class="nav-link active">현황 및 문제점</a></li>
+          <li class="nav-item"><a href="../index.html#solution" class="nav-link">제안 내용</a></li>
+          <li class="nav-item"><a href="../index.html#effects" class="nav-link">기대효과</a></li>
+          <li class="nav-item"><a href="../index.html#implementation" class="nav-link">구현 계획</a></li>
+          <li class="nav-item"><a href="../index.html#faq" class="nav-link">FAQ</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 페이지 타이틀 -->
+  <section class="page-title">
+    <div class="container">
+      <h1>현황 및 문제점</h1>
+      <p>현행 아동 지원 서비스 체계의 분절화로 인한 다양한 문제점과 그에 따른 파급 효과를 분석합니다.</p>
+    </div>
+  </section>
+
+  <!-- 충북 인구 현황 섹션 -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">충청북도 인구 및 아동 현황</h2>
+      
+      <div class="info-container">
+        <div class="info-item animate-on-scroll">
+          <h3>인구 감소 추세</h3>
+          <p>충청북도는 전국적인 저출산 및 인구감소 문제에 직면하고 있습니다. 특히 아동 인구의 지속적 감소는 지역의 미래 발전에 심각한 도전 요소로 작용하고 있습니다.</p>
+          <p>통계청 자료에 따르면, 전국적으로 아동 인구(0-18세) 비율이 2000년 27.2%에서 2020년 15.3%로 급감했으며, 충청북도 역시 이러한 추세를 따르고 있습니다.</p>
+        </div>
+        
+        <div class="chart-container animate-on-scroll">
+          <img src="../images/population-chart.svg" alt="충북 인구 감소 추세 그래프" class="responsive-img">
+          <p class="chart-caption">충청북도 아동 인구 감소 추세 (2000-2025)</p>
+        </div>
+      </div>
+      
+      <div class="info-container">
+        <div class="info-item animate-on-scroll">
+          <h3>소가족화 및 출산율 하락</h3>
+          <p>2025년 1월 기준 충북 내 옥천군의 경우, 총인구 48,119명에 세대수 25,330세대, 세대당 인구는 1.9명으로 나타나 소가족화가 뚜렷합니다.</p>
+          <p>더욱 우려되는 것은 국회예산정책처가 발표한 인구 전망으로, 대한민국의 합계출산율이 2020년 0.87명에서 2025년 0.75명까지 하락할 것으로 예상되어 아동 인구 감소가 더욱 가속화될 전망입니다.</p>
+        </div>
+        
+        <div class="info-item animate-on-scroll">
+          <h3>지역 간 격차</h3>
+          <p>충청북도 내에서도 청주시와 같은 도시 지역과 군 지역 간 인구 구조 격차가 뚜렷합니다. 도시 지역은 상대적으로 젊은 가구 비율이 높은 반면, 군 지역은 고령화가 심화되어 아동 인구 비율이 더욱 낮은 상황입니다.</p>
+          <p>이는 지역별 아동 지원 서비스 접근성의 불균형으로 이어지고 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 현행 지원 서비스 체계 섹션 -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">현행 아동 지원 서비스 체계</h2>
+      
+      <div class="info-container">
+        <div class="info-item animate-on-scroll">
+          <h3>중앙정부 및 충청북도 지원 서비스</h3>
+          <p>현재 아동을 위한 지원 서비스는 다양한 형태로 제공되고 있습니다:</p>
+          <ul>
+            <li><strong>아동수당</strong>: 만 0-7세 아동에게 월 10만원 지급</li>
+            <li><strong>보육료 지원</strong>: 만 0-5세 아동 대상 어린이집, 유치원 이용료 지원</li>
+            <li><strong>가정양육수당</strong>: 어린이집, 유치원을 이용하지 않는 영유아 대상 양육비 지원</li>
+            <li><strong>부모급여</strong>: 영아 양육에 따른 경제적 부담 경감을 위한 급여 지원</li>
+            <li><strong>아이돌봄서비스</strong>: 맞벌이 가정 등의 돌봄 공백 해소를 위한 서비스</li>
+            <li><strong>충북 출산장려 시책</strong>: 출산 축하금, 다자녀 가정 지원 등</li>
+            <li><strong>육아종합지원센터 운영</strong>: 보육 정보 제공 및 상담, 부모교육 등</li>
+            <li><strong>지역 돌봄 서비스</strong>: 지역아동센터, 다함께돌봄센터 등 운영</li>
+            <li><strong>아동급식 지원</strong>: 취약계층 아동 대상 급식 지원</li>
+            <li><strong>의료 서비스</strong>: 영유아 건강검진, 예방접종 등 지원</li>
+          </ul>
+        </div>
+        
+        <div class="info-item animate-on-scroll">
+          <h3>현행 카드 시스템 현황</h3>
+          <p>이러한 지원 서비스들을 이용하기 위해 다양한 카드 시스템이 운영되고 있습니다:</p>
+          <ul>
+            <li><strong>아이행복카드</strong>: 보육료, 유아학비 지원에 활용되는 카드로 8개 금융기관(국민, 우리, 하나SK, NH농협, 신한, 비씨, 롯데 등)에서 발급</li>
+            <li><strong>국민행복카드</strong>: 임신·출산 진료비, 청소년산모 임신·출산 의료비 등 지원</li>
+            <li><strong>아동급식카드</strong>: 취약계층 아동 급식 지원에 활용되는 카드로 지역마다 상이한 체계로 운영</li>
+            <li><strong>각종 바우처 카드</strong>: 문화, 스포츠, 교육 등 분야별 지원 서비스 이용을 위한 개별 바우처 카드</li>
+            <li><strong>지역화폐 및 복지카드</strong>: 지자체별로 운영하는 지역화폐와 복지카드 시스템</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="problems-visual-summary animate-on-scroll">
+        <div class="visual-summary-wrapper">
+          <img src="../images/card-system.svg" alt="현행 분절화된 카드 시스템" class="responsive-img">
+          <div class="stat-overlay">
+            <div class="stat-item">
+              <div class="stat-number">3-4개</div>
+              <div class="stat-label">가구당 평균 관리 카드 수</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">18.7%</div>
+              <div class="stat-label">서비스 미신청 가구 비율</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">27위</div>
+              <div class="stat-label">OECD 아동 삶의 만족도 순위</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 주요 문제점 섹션 -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">현행 시스템의 주요 문제점</h2>
+      
+      
+      <div class="problems-grid">
+        <div class="problem-card animate-on-scroll">
+          <div class="problem-icon">
+            <i class="fas fa-puzzle-piece" style="color: #e74c3c;"></i>
+          </div>
+          <h3>지원 체계의 분절화</h3>
+          <div class="problem-visual">
+            <div class="fragmented-system-visual">
+              <div class="fragment"><i class="fas fa-baby" style="color: #3498db;"></i><span>출산지원금</span></div>
+              <div class="fragment"><i class="fas fa-school" style="color: #e67e22;"></i><span>보육료</span></div>
+              <div class="fragment"><i class="fas fa-hospital" style="color: #2ecc71;"></i><span>의료비</span></div>
+              <div class="fragment"><i class="fas fa-music" style="color: #9b59b6;"></i><span>문화바우처</span></div>
+            </div>
+          </div>
+          <p>현행 아동 지원 서비스 체계의 가장 큰 문제점은 분절화입니다. 소관 부처 및 제도별로 분산된 서비스 체계는 다음과 같은 문제를 초래합니다:</p>
+          <ul>
+            <li><strong>다양한 카드 발급 필요</strong>: 가구당 평균 3-4개의 서로 다른 카드를 발급받아 관리해야 함</li>
+            <li><strong>개별 신청 절차</strong>: 각 서비스마다 별도의 신청 창구와 절차를 거쳐야 함</li>
+            <li><strong>정보 연계 부족</strong>: 서비스 간 정보 연계가 미흡하여 중복 지원 또는 사각지대 발생</li>
+            <li><strong>부처 간 협업 제한</strong>: 부처별, 지자체별 분산 운영으로 통합적 서비스 제공 및 정책 조정 어려움</li>
+          </ul>
+        </div>
+        
+        <div class="problem-card animate-on-scroll">
+          <div class="problem-icon">
+            <i class="fas fa-ban" style="color: #f39c12;"></i>
+          </div>
+          <h3>낮은 접근성과 복잡한 신청 절차</h3>
+          <div class="problem-visual">
+            <div class="complexity-visual">
+              <div class="process-step">
+                <i class="fas fa-search"></i>
+                <div class="step-arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="process-step">
+                <i class="fas fa-file-alt"></i>
+                <div class="step-arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="process-step">
+                <i class="fas fa-building"></i>
+                <div class="step-arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="process-step">
+                <i class="fas fa-clock"></i>
+                <div class="step-arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="process-step">
+                <i class="fas fa-credit-card"></i>
+              </div>
+            </div>
+          </div>
+          <p>아동 지원 서비스에 대한 접근성 문제와 복잡한 신청 절차도 주요 문제점입니다:</p>
+          <ul>
+            <li><strong>정보 부족</strong>: 이용 가능한 서비스에 대한 종합적 정보 제공 채널 부재</li>
+            <li><strong>신청 부담</strong>: 서비스별 상이한 신청 서류와 절차로 인한 행정 부담</li>
+            <li><strong>자격 기준 복잡성</strong>: 서비스마다 다른 소득 기준, 연령 기준 등으로 인한 혼란</li>
+            <li><strong>온라인 시스템 분산</strong>: 서비스별로 분리된 온라인 신청 시스템으로 이용 불편</li>
+          </ul>
+          <div class="stat-highlight">
+            <div class="stat-number">18.7%</div>
+            <div class="stat-description">이용 가능한 육아지원 서비스를 알지 못해 신청하지 못한 가구 비율 (2023년 전국 보육실태조사)</div>
+          </div>
+        </div>
+        
+        <div class="problem-card animate-on-scroll">
+          <div class="problem-icon">
+            <i class="fas fa-exclamation-triangle" style="color: #9b59b6;"></i>
+          </div>
+          <h3>서비스 이용 관리의 어려움</h3>
+          <div class="problem-visual">
+            <div class="management-visual">
+              <div class="wallet">
+                <i class="fas fa-wallet"></i>
+                <div class="cards">
+                  <div class="card"><i class="fas fa-credit-card"></i></div>
+                  <div class="card"><i class="fas fa-credit-card"></i></div>
+                  <div class="card"><i class="fas fa-credit-card"></i></div>
+                  <div class="card"><i class="fas fa-credit-card"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>여러 카드와 서비스를 개별적으로 관리해야 하는 현행 체계는 다음과 같은 어려움을 초래합니다:</p>
+          <ul>
+            <li><strong>분산된 이용 내역</strong>: 각 카드별, 서비스별 이용 내역을 개별적으로 확인해야 함</li>
+            <li><strong>잔액 관리 어려움</strong>: 서비스별 지원금 잔액을 각각 확인해야 하는 불편</li>
+            <li><strong>카드 분실 관리</strong>: 여러 카드 소지로 인한 분실 위험 증가 및 재발급 절차 복잡</li>
+            <li><strong>생애주기 변화 대응 한계</strong>: 아동의 성장에 따른 이용 가능 서비스 변화에 대한 정보 부족</li>
+          </ul>
+          <p>특히 다자녀 가정의 경우, 아이별로 각각 다른 카드와 서비스를 관리해야 하는 부담이 더욱 큽니다.</p>
+        </div>
+        
+        <div class="problem-card animate-on-scroll">
+          <div class="problem-icon">
+            <i class="fas fa-balance-scale" style="color: #3498db;"></i>
+          </div>
+          <h3>지역별 서비스 불균형</h3>
+          <div class="problem-visual">
+            <div class="imbalance-visual">
+              <div class="region urban">
+                <i class="fas fa-city"></i>
+                <div class="service-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="vs">VS</div>
+              <div class="region rural">
+                <i class="fas fa-home"></i>
+                <div class="service-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot empty"></span>
+                  <span class="dot empty"></span>
+                  <span class="dot empty"></span>
+                  <span class="dot empty"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>충청북도 내 지역 간 아동 지원 서비스의 불균형도 심각한 문제입니다:</p>
+          <ul>
+            <li><strong>도시-농촌 격차</strong>: 도시 지역과 농촌 지역 간 서비스 제공 기관 및 이용 가능 시설의 격차</li>
+            <li><strong>지원 수준 차이</strong>: 시·군별 상이한 지원 체계 및 수준으로 인한 형평성 문제</li>
+            <li><strong>교통 접근성</strong>: 대중교통이 부족한 지역의 서비스 이용 어려움</li>
+            <li><strong>지역 맞춤형 서비스 부족</strong>: 지역별 특성과 수요를 반영한 맞춤형 서비스 부족</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 파급 효과 섹션 -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">문제점으로 인한 파급 효과</h2>
+      
+      <div class="effects-container">
+        <div class="effect-item animate-on-scroll">
+          <h3><i class="fas fa-thumbs-down"></i> 낮은 정책 체감도 및 만족도</h3>
+          <p>복잡하고 분절된 지원 체계는 정책 체감도와 만족도 저하로 이어집니다. 2022년 조사에 따르면 한국 아동·청소년의 삶의 만족도는 OECD 30개국 중 27위로 최하위권에 머물고 있습니다. 이는 다양한 지원 정책이 있음에도 불구하고 실질적인 만족도로 이어지지 못하고 있음을 보여줍니다.</p>
+        </div>
+        
+        <div class="effect-item animate-on-scroll">
+          <h3><i class="fas fa-chart-line down"></i> 정책 효과 저하 및 행정 비효율</h3>
+          <p>현행 시스템의 문제점은 정책 효과 저하와 행정 비효율로 이어집니다:</p>
+          <ul>
+            <li><strong>낮은 서비스 이용률</strong>: 복잡한 절차와 정보 부족으로 인한 서비스 이용률 저하</li>
+            <li><strong>중복 지원과 사각지대</strong>: 통합적 관리 체계 부재로 인한 중복 지원 또는 사각지대 발생</li>
+            <li><strong>행정 인력 낭비</strong>: 분산된 서비스 운영에 따른 행정 인력 중복 투입</li>
+            <li><strong>예산 비효율</strong>: 개별 시스템 구축 및 운영에 따른 예산 낭비</li>
+          </ul>
+        </div>
+        
+        <div class="effect-item animate-on-scroll">
+          <h3><i class="fas fa-users"></i> 지역 인구 유출 가속화</h3>
+          <p>아동 양육 환경의 미흡함은 젊은 가구의 지역 이탈로 이어져 충청북도의 인구 문제를 더욱 악화시킵니다:</p>
+          <ul>
+            <li><strong>양육 환경 불만족</strong>: 복잡하고 불편한 지원 체계로 인한 양육 환경 만족도 저하</li>
+            <li><strong>수도권 이동</strong>: 보다 나은 양육 환경과 서비스를 찾아 수도권으로 이주하는 가구 증가</li>
+            <li><strong>지역 인구 감소 악순환</strong>: 아동 감소로 인한 지역 내 교육, 돌봄 시설 축소와 그로 인한 추가 인구 유출</li>
+            <li><strong>지역 경제 활력 저하</strong>: 인구 감소와 소비력 감소로 인한 지역 경제 활력 저하</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 결론 섹션 -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">결론: 통합 지원 체계 구축의 필요성</h2>
+      
+      <div class="conclusion-container animate-on-scroll">
+        <p>충청북도는 심각한 저출산과 인구 감소 문제에 직면하고 있으며, 이에 대응하기 위해서는 효과적인 아동 지원 정책의 수립과 실행이 필수적입니다. 그러나 현행 아동 지원 서비스 체계는 분절화, 낮은 접근성, 복잡한 신청 절차, 서비스 이용 관리의 어려움, 지역별 불균형 등 다양한 문제점을 안고 있습니다.</p>
+        
+        <p>이러한 문제점들은 정책 체감도 및 만족도 저하, 정책 효과 제한, 행정 비효율, 지역 인구 유출 가속화 등으로 이어지고 있습니다. 따라서 아동 지원 서비스의 통합적 제공 및 접근성 향상을 위한 혁신적 개선이 시급히 요구됩니다.</p>
+        
+        <div class="highlight-box">
+          <p>'충북 하나로 카드'는 이러한 문제점을 종합적으로 해결하고, 아동이 있는 가정의 삶의 질 향상과 충청북도의 인구 유입 및 정착 활성화를 촉진하기 위한 효과적인 대안이 될 수 있습니다. 출생 시점부터 모든 아동 지원 서비스를 통합적으로 이용할 수 있는 원스톱 시스템을 구축함으로써, "머물고 싶은 충북, 살고 싶은 충북"이라는 비전을 실현하는 데 크게 기여할 것입니다.</p>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <a href="proposal.html" class="btn">제안 내용 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">충북 하나로 카드</div>
+        <ul class="footer-links">
+          <li class="footer-link"><a href="../index.html#overview">소개</a></li>
+          <li class="footer-link"><a href="../index.html#problems">현황 및 문제점</a></li>
+          <li class="footer-link"><a href="../index.html#solution">제안 내용</a></li>
+          <li class="footer-link"><a href="../index.html#effects">기대효과</a></li>
+          <li class="footer-link"><a href="../index.html#implementation">구현 계획</a></li>
+          <li class="footer-link"><a href="../index.html#faq">FAQ</a></li>
+        </ul>
+        <p class="footer-text">&copy; 2025 충청북도. All Rights Reserved.</p>
+        <p class="footer-text">본 웹사이트는 2025년 충청북도 제안 공모전 출품작입니다.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
