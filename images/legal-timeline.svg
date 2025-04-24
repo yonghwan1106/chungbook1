@@ -6,8 +6,38 @@
   <!-- 제목 -->
   <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 법제도 기반 마련 추진 일정</text>
   
+
+  <!-- 단계 1: 조례 제정 및 개정 -->
+  <g transform="translate(30, 75)">
+    <rect x="0" y="0" width="350" height="40" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
+    <text x="175" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">조례 제정 및 개정</text>
+    
+    <!-- 세부 항목 -->
+    <g transform="translate(0, 60)" font-family="Arial" font-size="12" fill="#333333">
+      <text x="0" y="0">• 충청북도 아동 지원 통합 서비스 제공에 관한 조례 제정</text>
+      <text x="0" y="20">• 충청북도 출산장려 및 양육지원에 관한 조례 개정</text>
+      <text x="0" y="40">• 충청북도 아동복지 증진에 관한 조례 개정</text>
+      <text x="0" y="60">• 충청북도 정보화 촉진 조례 개정</text>
+    </g>
+  </g>
+  
+  <!-- 단계 2: 행정 지침 및 가이드라인 마련 -->
+  <g transform="translate(400, 75)">
+    <rect x="0" y="0" width="350" height="40" rx="5" ry="5" fill="#5bc0de" opacity="0.8" />
+    <text x="175" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">행정 지침 및 가이드라인 마련</text>
+    
+    <!-- 세부 항목 -->
+    <g transform="translate(0, 60)" font-family="Arial" font-size="12" fill="#333333">
+      <text x="0" y="0">• 충북 하나로 카드 발급 및 운영에 관한 지침 마련</text>
+      <text x="0" y="20">• 충북 하나로 카드 서비스 제공기관 관리 지침 마련</text>
+      <text x="0" y="40">• 개인정보 보호 및 보안 관리 가이드라인 수립</text>
+      <text x="0" y="60">• 서비스 품질 관리 및 모니터링 지침 마련</text>
+    </g>
+  </g>
+  
+
   <!-- 시간축 -->
-  <g transform="translate(50, 200)">
+  <g transform="translate(30, 230)">
     <line x1="0" y1="0" x2="700" y2="0" stroke="#333333" stroke-width="2" />
     
     <!-- 월 표시 -->
@@ -38,34 +68,11 @@
     </g>
   </g>
   
-  <!-- 단계 1: 조례 제정 및 개정 -->
-  <g transform="translate(50, 100)">
-    <rect x="0" y="0" width="350" height="40" rx="5" ry="5" fill="#1a5f7a" opacity="0.8" />
-    <text x="175" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">조례 제정 및 개정</text>
-    
-    <!-- 세부 항목 -->
-    <g transform="translate(0, 50)" font-family="Arial" font-size="12" fill="#333333">
-      <text x="0" y="0">• 충청북도 아동 지원 통합 서비스 제공에 관한 조례 제정</text>
-      <text x="0" y="20">• 충청북도 출산장려 및 양육지원에 관한 조례 개정</text>
-      <text x="0" y="40">• 충청북도 아동복지 증진에 관한 조례 개정</text>
-      <text x="0" y="60">• 충청북도 정보화 촉진 조례 개정</text>
-    </g>
-  </g>
-  
-  <!-- 단계 2: 행정 지침 및 가이드라인 마련 -->
-  <g transform="translate(250, 250)">
-    <rect x="0" y="0" width="350" height="40" rx="5" ry="5" fill="#5bc0de" opacity="0.8" />
-    <text x="175" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">행정 지침 및 가이드라인 마련</text>
-    
-    <!-- 세부 항목 -->
-    <g transform="translate(0, 50)" font-family="Arial" font-size="12" fill="#333333">
-      <text x="0" y="0">• 충북 하나로 카드 발급 및 운영에 관한 지침 마련</text>
-      <text x="0" y="20">• 충북 하나로 카드 서비스 제공기관 관리 지침 마련</text>
-      <text x="0" y="40">• 개인정보 보호 및 보안 관리 가이드라인 수립</text>
-      <text x="0" y="60">• 서비스 품질 관리 및 모니터링 지침 마련</text>
-    </g>
-  </g>
-  
+
+
+  <g transform="translate(-20, 40)">
+
+  <g transform="translate(0, 50)">
   <!-- 일정 아이템 1: 조례 초안 작성 -->
   <g transform="translate(50, 180)">
     <rect x="0" y="0" width="150" height="25" rx="5" ry="5" fill="#1a5f7a" />
@@ -94,9 +101,11 @@
   <g transform="translate(450, 180)">
     <rect x="0" y="0" width="75" height="25" rx="5" ry="5" fill="#1a5f7a" />
     <text x="37.5" y="17" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">조례 공포</text>
-  </g>
+  </g></g>
+
   
   <!-- 일정 아이템 6: 지침 초안 작성 -->
+  <g transform="translate(20, 40)">
   <g transform="translate(300, 225)">
     <rect x="0" y="0" width="150" height="25" rx="5" ry="5" fill="#5bc0de" />
     <text x="75" y="17" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">지침 초안 작성</text>
@@ -112,25 +121,25 @@
   <g transform="translate(575, 225)">
     <rect x="0" y="0" width="150" height="25" rx="5" ry="5" fill="#5bc0de" />
     <text x="75" y="17" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">지침 확정 및 배포</text>
-  </g>
+  </g>  </g>
   
   <!-- 마일스톤 1: 조례 제정 완료 -->
-  <g transform="translate(500, 180)">
+  <!--g transform="translate(500, 180)">
     <circle cx="0" cy="12.5" r="10" fill="#ff9800" />
     <text x="15" y="17" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">조례 제정 완료</text>
-  </g>
+</g-->
   
   <!-- 마일스톤 2: 행정 지침 배포 완료 -->
-  <g transform="translate(725, 225)">
+  <!--g transform="translate(725, 225)">
     <circle cx="0" cy="12.5" r="10" fill="#ff9800" />
     <text x="15" y="17" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">행정 지침 배포 완료</text>
-  </g>
+  </g--></g>
   
   <!-- 시스템 개발 일정과의 연계 설명 -->
   <g transform="translate(100, 360)">
     <rect width="600" height="30" rx="5" ry="5" fill="#e8f4f8" />
     <text x="300" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#1a5f7a">
-      조례 제정 및 행정 지침 마련은 시스템 개발과 병행하여 1단계 시범 운영 전 완료
+      "조례 제정 및 행정 지침 마련은 시스템 개발과 병행하여 1단계 시범 운영 전 완료"
     </text>
-  </g>
+  </g> 
 </svg>
