@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+<svg width="810" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
   <!-- 배경 -->
-  <rect width="800" height="500" fill="#f8f9fa" />
+  <rect width="810" height="500" fill="#f8f9fa" />
   
   <!-- 제목 -->
   <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">충북 하나로 카드 추진 체계 조직도</text>
@@ -27,7 +27,7 @@
   </g>
   
   <!-- 중간 레벨 2: 시·군 협의체 -->
-  <g transform="translate(550, 200)">
+  <g transform="translate(540, 200)">
     <rect width="200" height="70" rx="10" ry="10" fill="#5bc0de" />
     <text x="100" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">시·군 협의체</text>
     <text x="100" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">11개 시·군 담당 부서장</text>
@@ -50,35 +50,35 @@
   
   <!-- 하위 레벨 1: IT 기술 지원 -->
   <g transform="translate(0, 320)">
-    <rect width="150" height="60" rx="10" ry="10" fill="#ff9800" />
+    <rect width="140" height="60" rx="10" ry="10" fill="#ff9800" />
     <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">IT 기술 지원</text>
     <text x="75" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">정보화 담당관</text>
   </g>
   
   <!-- 하위 레벨 2: 서비스 설계 -->
-  <g transform="translate(175, 320)">
-    <rect width="150" height="60" rx="10" ry="10" fill="#ff9800" />
+  <g transform="translate(165, 320)">
+    <rect width="140" height="60" rx="10" ry="10" fill="#ff9800" />
     <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">서비스 설계</text>
     <text x="75" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">복지정책과, 여성청소년과</text>
   </g>
   
   <!-- 하위 레벨 3: 운영 관리 -->
-  <g transform="translate(350, 320)">
-    <rect width="150" height="60" rx="10" ry="10" fill="#ff9800" />
+  <g transform="translate(330, 320)">
+    <rect width="140" height="60" rx="10" ry="10" fill="#ff9800" />
     <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">운영 관리</text>
     <text x="75" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">법무혁신담당관</text>
   </g>
   
   <!-- 하위 레벨 4: 지역 서비스 연계 -->
-  <g transform="translate(525, 320)">
-    <rect width="150" height="60" rx="10" ry="10" fill="#ff9800" />
+  <g transform="translate(495, 320)">
+    <rect width="140" height="60" rx="10" ry="10" fill="#ff9800" />
     <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">지역 서비스 연계</text>
     <text x="75" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">각 시·군 담당 부서</text>
   </g>
   
   <!-- 하위 레벨 5: 홍보 및 확산 -->
-  <g transform="translate(700, 320)">
-    <rect width="150" height="60" rx="10" ry="10" fill="#ff9800" />
+  <g transform="translate(660, 320)">
+    <rect width="140" height="60" rx="10" ry="10" fill="#ff9800" />
     <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">홍보 및 확산</text>
     <text x="75" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">홍보담당관, 각 시·군</text>
   </g>
